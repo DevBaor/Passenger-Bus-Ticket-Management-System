@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C85B2BA-4C78-45CE-B312-DA733BE9448A}|QuanLyBanVe\\QuanLyBanVe.csproj|D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\quanlybanve\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C85B2BA-4C78-45CE-B312-DA733BE9448A}|QuanLyBanVe\\QuanLyBanVe.csproj|solutionrelative:quanlybanve\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C85B2BA-4C78-45CE-B312-DA733BE9448A}|QuanLyBanVe\\QuanLyBanVe.csproj|D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\quanlybanve\\fthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C85B2BA-4C78-45CE-B312-DA733BE9448A}|QuanLyBanVe\\QuanLyBanVe.csproj|solutionrelative:quanlybanve\\fthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C85B2BA-4C78-45CE-B312-DA733BE9448A}|QuanLyBanVe\\QuanLyBanVe.csproj|d:\\hqtcsdl\\qlbv\\ql\\quanlybanvexekhach\\quanlybanve\\fthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C85B2BA-4C78-45CE-B312-DA733BE9448A}|QuanLyBanVe\\QuanLyBanVe.csproj|solutionrelative:quanlybanve\\fthongke.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C85B2BA-4C78-45CE-B312-DA733BE9448A}|QuanLyBanVe\\QuanLyBanVe.csproj|D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\quanlybanve\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C85B2BA-4C78-45CE-B312-DA733BE9448A}|QuanLyBanVe\\QuanLyBanVe.csproj|solutionrelative:quanlybanve\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C85B2BA-4C78-45CE-B312-DA733BE9448A}|QuanLyBanVe\\QuanLyBanVe.csproj|d:\\hqtcsdl\\qlbv\\ql\\quanlybanvexekhach\\quanlybanve\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C85B2BA-4C78-45CE-B312-DA733BE9448A}|QuanLyBanVe\\QuanLyBanVe.csproj|solutionrelative:quanlybanve\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C85B2BA-4C78-45CE-B312-DA733BE9448A}|QuanLyBanVe\\QuanLyBanVe.csproj|D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\quanlybanve\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C85B2BA-4C78-45CE-B312-DA733BE9448A}|QuanLyBanVe\\QuanLyBanVe.csproj|solutionrelative:quanlybanve\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C85B2BA-4C78-45CE-B312-DA733BE9448A}|QuanLyBanVe\\QuanLyBanVe.csproj|D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\quanlybanve\\ftaixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C85B2BA-4C78-45CE-B312-DA733BE9448A}|QuanLyBanVe\\QuanLyBanVe.csproj|solutionrelative:quanlybanve\\ftaixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fThongKe.cs [Design]",
+              "DocumentMoniker": "D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\QuanLyBanVe\\fThongKe.cs",
+              "RelativeDocumentMoniker": "QuanLyBanVe\\fThongKe.cs",
+              "ToolTip": "D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\QuanLyBanVe\\fThongKe.cs [Design]",
+              "RelativeToolTip": "QuanLyBanVe\\fThongKe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T05:50:49.326Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fLogin.cs [Design]",
+              "DocumentMoniker": "D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\QuanLyBanVe\\fLogin.cs",
+              "RelativeDocumentMoniker": "QuanLyBanVe\\fLogin.cs",
+              "ToolTip": "D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\QuanLyBanVe\\fLogin.cs [Design]",
+              "RelativeToolTip": "QuanLyBanVe\\fLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T22:05:04.51Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fMain.cs",
+              "DocumentMoniker": "D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\QuanLyBanVe\\fMain.cs",
+              "RelativeDocumentMoniker": "QuanLyBanVe\\fMain.cs",
+              "ToolTip": "D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\QuanLyBanVe\\fMain.cs",
+              "RelativeToolTip": "QuanLyBanVe\\fMain.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T13:53:46.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fLogin.cs",
+              "DocumentMoniker": "D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\QuanLyBanVe\\fLogin.cs",
+              "RelativeDocumentMoniker": "QuanLyBanVe\\fLogin.cs",
+              "ToolTip": "D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\QuanLyBanVe\\fLogin.cs",
+              "RelativeToolTip": "QuanLyBanVe\\fLogin.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAwwEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:30:40.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fThongKe.cs",
+              "DocumentMoniker": "D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\QuanLyBanVe\\fThongKe.cs",
+              "RelativeDocumentMoniker": "QuanLyBanVe\\fThongKe.cs",
+              "ToolTip": "D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\QuanLyBanVe\\fThongKe.cs",
+              "RelativeToolTip": "QuanLyBanVe\\fThongKe.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvxkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T09:05:36.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "fMain.cs [Design]",
+              "DocumentMoniker": "D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\QuanLyBanVe\\fMain.cs",
+              "RelativeDocumentMoniker": "QuanLyBanVe\\fMain.cs",
+              "ToolTip": "D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\QuanLyBanVe\\fMain.cs [Design]",
+              "RelativeToolTip": "QuanLyBanVe\\fMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T13:35:38.034Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "fTaiXe.cs",
+              "DocumentMoniker": "D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\QuanLyBanVe\\fTaiXe.cs",
+              "RelativeDocumentMoniker": "QuanLyBanVe\\fTaiXe.cs",
+              "ToolTip": "D:\\HQTCSDL\\QLBV\\ql\\QuanLyBanVeXeKhach\\QuanLyBanVe\\fTaiXe.cs",
+              "RelativeToolTip": "QuanLyBanVe\\fTaiXe.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwHoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T20:59:55.113Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

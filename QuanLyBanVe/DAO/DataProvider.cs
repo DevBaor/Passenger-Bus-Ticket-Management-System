@@ -14,7 +14,8 @@ namespace QuanLyBanVe.DAO
         private static DataProvider instance;
         internal static DataProvider Instance { get { if (instance == null) instance = new DataProvider(); return DataProvider.instance; } 
             private set { DataProvider.instance = value; }
-        } private string connectionstring = "Data Source=LAPTOP-RHPTALF1\\SQLEXPRESS;Initial Catalog=QLBV;Integrated Security=True;Encrypt=False";
+        } 
+        public string connectionstring = "Data Source=DESKTOP-3FEA33M\\SQLEXPRESS;Initial Catalog=QLBV;Integrated Security=True;";
        
         private DataProvider() { }
         public DataTable ExcuteQuery(string query, object[] parameter= null)
@@ -92,6 +93,7 @@ namespace QuanLyBanVe.DAO
             }
             return data;
         }
+
     }
 }
 

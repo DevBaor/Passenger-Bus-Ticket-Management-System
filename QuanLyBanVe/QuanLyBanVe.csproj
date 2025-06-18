@@ -46,27 +46,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAO\AccountDAO.cs" />
-    <Compile Include="DAO\DataProvider.cs" />
-    <Compile Include="DAO\XeDAO.cs" />
-    <Compile Include="DTO\XE.cs" />
-    <Compile Include="fAdmin.cs">
+    <Compile Include="ChiTietTuyen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fAdmin.Designer.cs">
-      <DependentUpon>fAdmin.cs</DependentUpon>
+    <Compile Include="ChiTietTuyen.Designer.cs">
+      <DependentUpon>ChiTietTuyen.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAO\AccountDAO.cs" />
+    <Compile Include="DAO\ChongoiDAO.cs" />
+    <Compile Include="DAO\ChuyenxeDAO.cs" />
+    <Compile Include="DAO\DataProvider.cs" />
+    <Compile Include="DAO\QuyenDAO.cs" />
+    <Compile Include="DAO\TaoMa.cs" />
+    <Compile Include="DAO\XeDAO.cs" />
+    <Compile Include="DTO\Chongoi.cs" />
+    <Compile Include="DTO\Chuyenxe.cs" />
+    <Compile Include="DTO\Nhanvien.cs" />
+    <Compile Include="DTO\Quyen.cs" />
+    <Compile Include="DTO\TUYENXE.cs" />
+    <Compile Include="DTO\XE.cs" />
     <Compile Include="fLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="fQLBV.cs">
+    <Compile Include="fMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fQLBV.Designer.cs">
-      <DependentUpon>fQLBV.cs</DependentUpon>
+    <Compile Include="fMain.Designer.cs">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTaiXe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTaiXe.Designer.cs">
+      <DependentUpon>fTaiXe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fThongKe.Designer.cs">
+      <DependentUpon>fThongKe.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,14 +97,26 @@
     <Compile Include="ThongTinTaiKhoan.Designer.cs">
       <DependentUpon>ThongTinTaiKhoan.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="fAdmin.resx">
-      <DependentUpon>fAdmin.cs</DependentUpon>
+    <Compile Include="TTTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TTTaiKhoan.Designer.cs">
+      <DependentUpon>TTTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ChiTietTuyen.resx">
+      <DependentUpon>ChiTietTuyen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fQLBV.resx">
-      <DependentUpon>fQLBV.cs</DependentUpon>
+    <EmbeddedResource Include="fMain.resx">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTaiXe.resx">
+      <DependentUpon>fTaiXe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fThongKe.resx">
+      <DependentUpon>fThongKe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -93,9 +126,13 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="ThongTinTaiKhoan.resx">
       <DependentUpon>ThongTinTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TTTaiKhoan.resx">
+      <DependentUpon>TTTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -110,6 +147,128 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Anh\add-user-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\bus-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\button_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\button_ok.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\cap_pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\configure.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\db_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\db_add1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\db_comit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\db_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\db_status.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\db_update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\edit_add.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\editdelete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\edit-user-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\exit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\exit1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\ferme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\Fermer-session.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\GanXe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\GanXe1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\hanh_khach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\logout.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\Logout1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\Money-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\payment-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\phanquyen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\phanquyen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\remove-user-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\twitter-bus-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\twitter-bus-purple-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\upload-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\user-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\user-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\user-icon11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\user-login-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\db_remove2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Anh\editdelete2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

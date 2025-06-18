@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
 
 namespace QuanLyBanVe
 {
@@ -24,11 +25,34 @@ namespace QuanLyBanVe
             string password = txt_Mk.Text;
             if (login(username,password))
             {
+                string tem = username.ToLower();
+                if (tem.StartsWith("tx"))
+                {
 
-                fQLBV f = new fQLBV();
-                this.Hide();
-                f.ShowDialog();
-                this.Show();
+                    fTaiXe f = new fTaiXe(username);
+                    this.Hide();
+                    f.ShowDialog();
+                    bool kt = (bool)f.Tag;
+
+                    if (kt)
+                        Application.Exit();
+                    this.Show();
+                    this.Show();
+
+                }
+                else
+                {
+                    fMain f = new fMain(username);
+
+                    this.Hide();
+                    f.ShowDialog();
+                    bool kt = (bool)f.Tag;
+
+                    if (kt)
+                        Application.Exit();
+                    this.Show();
+                }
+                
             }
             else { MessageBox.Show("Sai tên tk hoặc mật khẩu!!"); }
         }
@@ -42,10 +66,12 @@ namespace QuanLyBanVe
 
         private void fLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show("Bạn có muốn thoát không?","Thông báo!", MessageBoxButtons.OKCancel) !=System.Windows.Forms.DialogResult.OK)
-            {
-                e.Cancel = true;
-            }
+            //if (MessageBox.Show("Bạn có muốn thoát không?", "Thông báo!", MessageBoxButtons.OKCancel) != System.Windows.Forms.DialogResult.OK)
+            //{
+            //    e.Cancel = true;
+            //}
         }
+
+        
     }
 }
